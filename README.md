@@ -5,7 +5,7 @@
 This bookmarklet allows you to mirror the Street View panorama.
 
 ## Usage
-Please check the [github page](https://oshimaryo.github.io/mirror-street-view/).
+Please check the https://oshimaryo.github.io/mirror-street-view-bookmarklet/.
 
 ## Limitations
 - You can only go forward or backward.
