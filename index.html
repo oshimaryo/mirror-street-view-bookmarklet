@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mirror Street View</title>
+  </head>
+  <body>
+    <article>
+      <h1>Mirror Street View</h1>
+      <h2>Description</h2>
+      <p>This bookmarklet allows you to mirror the Street View panorama.</p>
+      <h2>Installation</h2>
+      <ul>
+        <li>
+          1. Drag the following link to your bookmarks bar:
+          <a
+            href="javascript:void%20function(){const%20a=document.querySelector(%22.widget-scene-canvas%22);if(a){const%20b=a.classList.contains(%22mirrored%22);if(b)return%20a.classList.remove(%22mirrored%22),void(a.style.transform=%22%22);a.classList.add(%22mirrored%22),a.style.transform=%22rotateY(180deg)%22}}();"
+            >Mirror Street View</a
+          >
+        </li>
+        <li>2. Click the bookmarklet when you're on a Street View page.</li>
+        <li>3. Click the bookmarklet again to unmirror the panorama.</li>
+      </ul>
+      <h2>Limitations</h2>
+      <p>There are a few limitations to this bookmarklet:</p>
+      <ul>
+        <li>It only works on Street View pages.</li>
+        <li>You can only go forward or backward.</li>
+        <li>You can turn right or left.</li>
+      </ul>
+      <h2>Acknowlegement</h2>
+      <p>
+        This bookmarklet was composed by
+        <a href="https://chriszarate.github.io/bookmarkleter/">Bookmarkleter</a>.
+      </p>
+      <h2>License</h2>
+      <p>This bookmarklet is licensed under the MIT License.</p>
+      <h2>Repository</h2>
+      <p>
+        <a href="https://github.com/oshimaryo/mirror-street-view-bookmarklet" target="_blank"
+          >https://github.com/oshimaryo/mirror-street-view-bookmarklet</a
+        >
+      </p>
+    </article>
+  </body>
+</html>
